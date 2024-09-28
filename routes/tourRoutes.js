@@ -21,7 +21,7 @@ router
   .delete(
     authController.protect,
     authController.restrictTo('admin'),
-    tourController.deleteTour,
+    tourController.deleteTour
   );
 
 module.exports = router;

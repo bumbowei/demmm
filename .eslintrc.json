@@ -4,7 +4,9 @@
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "no-console": 0,
-    
+
+    "comma-dangle": ["error", "never"],
+
     "spaced-comment": "off",
     "consistent-return": "off",
     "func-names": "off",
@@ -19,7 +21,8 @@
   },
   "engines": {
     "node": ">=10.6.0"
-  },"env": {
+  },
+  "env": {
     "es6": true
   },
   "parserOptions": {
