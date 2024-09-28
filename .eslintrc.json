@@ -4,7 +4,6 @@
   "rules": {
     "prettier/prettier": ["error", { "endOfLine": "auto" }],
     "no-console": 0,
-
     "comma-dangle": ["error", "never"],
 
     "spaced-comment": "off",
